@@ -103,7 +103,7 @@ data "aws_iam_policy_document" "glue_job_policy" {
   }
 
   statement { # write processed objects
-    actions   = ["s3:PutObject", "s3:AbortMultipartUpload", "s3:ListBucketMultipartUploads"]
+    actions   = ["s3:PutObject", "s3:AbortMultipartUpload", "s3:DeleteObject", "s3:ListBucketMultipartUploads"]
     resources = ["arn:aws:s3:::${var.processed_bucket}/*"]
   }
 
