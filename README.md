@@ -25,4 +25,4 @@ https://www.loom.com/share/410b4ecedb664fc9bb0976f37f07032e?sid=b1e67724-c986-4a
 ## Blog Post
 
 For a deeper dive into the challenges faced and design decisions, see the blog post here:
-👉 [Blog post link coming soon]()
+https://dev.to/ajithmanmu/how-i-built-a-serverless-data-analytics-pipeline-for-customer-churn-with-s3-glue-athena-and-bfk
